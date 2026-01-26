@@ -1,5 +1,122 @@
 # Git Tutorial CLI
-A beginner-friendly Python CLI tool that explains how to navigate Git in plain language.
+A beginner-friendly Python <abbr title= "A program that runs in a terminal and responds to text input instead of mouse clicks."> command line tool</abbr> that introducers users to Git concepts through an interactive menu. This program is designed for people who are new to Git and want a simple, guided explanation of what Git is, how it works and which commands matter most.
+
+This project can help students, first-time developers, or anyone who wants a low-pressure way to learn Git basics and definitions.
+
+## Overview
+- Interactive CLI menu
+- Plain-language explanations of Git concepts
+- Overview of essential Git commands
+- Beginner-focused structure
+- No external libraries required
+
+## Setup
+
+This project runs on Python, a beginner-friendly programming language. Ensure the latest version is installed on your computer.
+
+- Go to https://www.python.org/downloads/
+- Select the appropriate download for your operating system (Windows, macOS or Linux)
+- For Windows: Check the box during download that says "Add Python to PATH"
+
+To check that Python is installed correctly, check through your terminal. Each operating system has a terminal where users can type commands for the computer to run. 
+
+**1. System Terminal (Command Prompt/PowerShell/Terminal)**
+- Open the terminal and type the following and press Enter.
+    
+        python --version
+
+
+**2. Code Editor (Visual Studio Code)**
+- Open the editor, create or open a folder and open the built-in terminal. Type the following and press Enter.
+
+        "python --version" 
+
+
+For either option, if the terminal returns a version number such as Python 3.12.1, then the language is installed. 
+
+## Cloning the Repository
+
+There are two ways that the project files can be downloaded and used.
+
+**1. Using Git (Recommended)**
+
+For this option, ensure Git is installed on your computer. 
+
+Open your preferred terminal and type the following commands.
+    
+    git clone https://github.com/vivian-20-star/GitHelper.git
+
+This copies the project files from GitHub to your computer and creates a folder called GitHelper.
+
+    cd GitHelper
+
+This moves into the folder you just downloaded.
+
+**2. Download as a ZIP (No Git Required)**
+
+Go to the [GitHelper](https://github.com/vivian-20-star/GitHelper.git) GitHub page and click on the green Code button.
+
+Select Download ZIP and extract the folder to your computer.
+
+Open the extracted GitHelper folder.
+
+## Running the Program
+
+The CLI tool presents users with a menu arranged by numbers. To learn more about each chapter available, the user must enter a number between 1-6 inside the terminal for the program to then feed the designated information.
+
+This program runs in a terminal. There are two supported ways to open a terminal and run GitHelper. Both do the same thing.
+
+**1. Code Editor (<abbr title=  " A free code editor that includes a built-in terminal, easy for non-technical users." > Visual Studio Code</abbr>)**
+
+With VS Code already downloaded, select the three lines in the top right corner, click file and open folder. 
+
+Select the GitHelper folder you downloaded or cloned. 
+
+In the same three lines at the top, select Terminal and click New Terminal. A window will open at the bottom of the screen.
+
+Type the following command and press Enter.
+
+    python main.py
+
+The Git tutorial will appear in the terminal.
+
+**2. Using Your Computer's Terminal**
+
+Windows uses Command Prompt or PowerShell and can be found by searching the Start menu. macOS/Linux uses Terminal and can be found by searching in Applications, and clicking Utilities.
+
+Open the terminal application, type the following command and press Enter.
+
+    cd path/to/GitHelper
+ 
+Replace the "path/to" with the actual location of the folder. For example, if the folder exists in your Documents on Windows:
+
+    cd C:\Users\YourName\Documents\GitHelper
+
+On Mac:
+
+    cd /Users/YourName/Documents/GitHelper
+
+This tells your terminal that it wants to go into the folder containing the program files.
+
+Once inside the GitHelper folder, type the following command and press Enter.
+
+    python main.py
+
+## Project Goals
+
+- Make Git less intimidating for beginners
+- Reinforce learning through repitition and simple explanations
+- Provide a foundation before using Git in real projects.
+
+## Future Improvements
+- Add real command examples
+- Integrate quizzes or interactice questions
+- Expand troubleshooting with real error messages
+
+Happy Learning!
+
+
+# Content
 
 ## Table of Contents
 1. [Understanding Git](#understanding-git)
