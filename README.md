@@ -34,7 +34,7 @@ Run the tool with:
 python main.py
 ```
 
-## How to Use It
+## How to Use the Tool
 
 The tool displays a numbered menu with Git topics from 1-6. Select topic of interest and hit enter to return to the main menu when prompted.
 
