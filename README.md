@@ -1,7 +1,7 @@
 # Git Tutorial CLI
 A simple Python command-line tool created to practice Python fundamentals while explaining basic Git concepts and commands.
 
-It presents an interactive mnu covering what Git is, setup basics, creating a first project, troubleshooting, and extra tools.
+It presents an interactive menu covering what Git is, setup basics, creating a first project, troubleshooting, and extra tools.
 
 ## Requirements
 
